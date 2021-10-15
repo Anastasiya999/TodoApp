@@ -8,13 +8,18 @@
     //typography
 
     --ff-base: 'Roboto', sans-serif;
-    --fs-header: 36px;
-    --fs-text: 18px;
+    --fs-header: 2.25rem;
+    --fs-text: 1.125rem;
     --fw-header: 500;
     --fw-text: 300;
     --fw-title: 400;
 }
-
+html{
+  font-size: 12px;
+  @media (min-width:760px){
+    font-size: 16px;
+  }
+}
 /* Box sizing rules */
 *,
 *::before,

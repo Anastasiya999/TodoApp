@@ -1,0 +1,35 @@
+
+    .decoration{
+        
+        position:fixed;
+        width: 300px;
+        height: 300px;
+        
+
+        border: solid 2px;
+        border-radius: 50%;
+        background-color:transparent;
+        border-color: var(--primary-clr-pink);
+        
+        transition: width 300ms, height 300ms, opacity 200ms;
+        transition-timing-function: ease-in-out;
+        
+        
+       
+        &:hover{
+        
+            width: 400px;
+            height: 400px;
+            opacity: 0.2;
+           
+        }
+        
+    }
+ 
+  
+    @media (min-width: 1025px){
+        .decoration{
+            z-index: 10;
+        }
+    }   
+

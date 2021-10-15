@@ -1,0 +1,57 @@
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--primary-clr-light);
+
+    font-family: var(--ff-base);
+
+    main{
+        
+        padding: 5%;
+        z-index: 3;
+
+        @media (min-width: 960px){
+            
+            padding: 5% 22%;
+           
+        }
+        
+    }
+
+    header{
+        margin: 1%;
+        
+        letter-spacing: 0.5ch;
+        font-size: var(--fs-header);
+        font-weight: var(--fw-title);
+        color: var(--primary-clr-dark);
+
+        align-self: center;
+       
+        @media (min-width: 960px){
+            
+            align-self:inherit;
+           
+        }
+        
+    }
+
+   .todo-container{
+    
+    padding: 5%;
+    border-radius: 25px;
+
+    background-color: var(--primary-clr-dark);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   } 
+}
+
+

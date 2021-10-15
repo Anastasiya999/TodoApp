@@ -1,0 +1,43 @@
+.todo-row{
+    background-image: url('../images/marble.jpg');
+    background-size: cover;
+    font-size: var(--fs-text);
+    font-family: var(--ff-base);
+    font-weight: var(--fw-text);
+    color:var(--primary-clr-dark);
+    
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+    min-width: 80vw;
+    margin-top: 1.5em;
+    padding: .8em;
+
+    -webkit-box-shadow: 8px 8px 24px -5px rgb(34, 19, 21);
+    -moz-box-shadow: 8px 8px 24px -5px rgb(27, 15, 17);
+    box-shadow: 8px 8px 24px -5px rgb(26, 14, 16);
+    border-radius: 10px;
+
+
+    p{
+        width: 90%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    
+   
+}
+.todo-row.complete{
+    filter: brightness(60%);
+    text-decoration: line-through;
+}
+
+@media (min-width: 960px){
+    .todo-row{
+        min-width: 50vw;
+    }
+}

@@ -1,3 +1,5 @@
+This is a simple todo app. The project was created in a learning purpose. 
+Reference: Todo app by Brian [https://github.com/briancodex/react-todo-app-v1.git](https://github.com/briancodex/react-todo-app-v1.git)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

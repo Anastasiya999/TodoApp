@@ -1,6 +1,12 @@
+
+ul {
+    padding: 0;
+    margin-top: 2rem;
+}
 .todo-row{
     background-image: url('../images/marble.jpg');
     background-size: cover;
+    
     font-size: var(--fs-text);
     font-family: var(--ff-base);
     font-weight: var(--fw-text);
@@ -13,26 +19,35 @@
    
     
     min-width: 80vw;
-    margin-top: 1.5em;
+    margin-top: 1.2em;
     padding: .8em;
+    
 
-    -webkit-box-shadow: 8px 8px 24px -5px rgb(34, 19, 21);
-    -moz-box-shadow: 8px 8px 24px -5px rgb(27, 15, 17);
-    box-shadow: 8px 8px 24px -5px rgb(26, 14, 16);
+    
+    -webkit-box-shadow: 1px -20px 19px -1px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 1px -20px 19px -1px rgba(0, 0, 0, 0.45);
+    box-shadow: 1px -20px 19px -1px rgba(0, 0, 0, 0.45);
     border-radius: 10px;
 
-
+   // margin-left: auto;
     p{
         width: 90%;
         &:hover{
             cursor: pointer;
         }
     }
+
+    .icons{
+        display: flex;
+        svg{
+            margin-left: 1em;
+        }
+    }
     
    
 }
 .todo-row.complete{
-    filter: brightness(60%);
+    filter: brightness(70%);
     text-decoration: line-through;
 }
 

@@ -9,15 +9,15 @@
 
     --ff-base: 'Roboto', sans-serif;
     --fs-header: 2.25rem;
-    --fs-text: 1.125rem;
+    --fs-text: 1.5rem;
     --fw-header: 500;
     --fw-text: 300;
     --fw-title: 400;
 }
 html{
-  font-size: 12px;
+  font-size: 14px;
   @media (min-width:760px){
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 /* Box sizing rules */

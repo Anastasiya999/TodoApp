@@ -1,11 +1,8 @@
 button{
     width: 100%;
-    height: 120%;
+    height: 150%;
 
     flex-basis: 30%;
-    @media (min-width:960px){
-        flex-basis: 20%;
-    }
 
     background-color: var(--primary-clr-pink);
     
@@ -13,7 +10,7 @@ button{
     font-family: inherit;
     font-size: 1.2rem;
 
-    padding: 0.1em 0.5em;
+    padding: 0.4em 0.3em;
     outline: none;
 
     border:none;
@@ -21,6 +18,9 @@ button{
 
 
     @media (min-width:960px){
+        flex-basis: 20%;
+        font-size: 1.5rem;
+        filter: brightness(90%);
     &:hover {
         -webkit-box-shadow: 8px 8px 24px -10px rgba(0, 0, 0, 1);
         -moz-box-shadow: 8px 8px 24px -10px rgba(0, 0, 0, 1);
@@ -28,14 +28,13 @@ button{
 
         transform: translateY(-3px);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        filter: brightness(100%);
 
         cursor: pointer;
      }
     }
      &.edit{
        background-color: var(--primary-clr-light);
-
        color: var(--primary-clr-dark);
-       font-size: 1.2rem;
     }
 }
